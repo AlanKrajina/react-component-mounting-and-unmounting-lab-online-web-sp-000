@@ -20,7 +20,7 @@ class Pancake extends React.Component {
   componentWillUnmount() {
     this.cleanUpInterval()
   }
-  
+
   updateCounter = () => {
     this.setState({
       timeCooked: this.state.timeCooked + 1
